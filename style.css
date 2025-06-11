@@ -1,0 +1,54 @@
+ body {
+        margin: 0;
+        margin-top: 200px;
+     
+        display: flex;
+        justify-content: center; /* по горизонтали */
+       
+        background-color: #f0f0f0; /* можно убрать, это просто фон */
+    }
+
+
+.submit{
+    width: 200px;
+    padding: 5px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+    .form {
+        padding: 40px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 8px;
+    }
+
+    .submit {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .submit:hover {
+        background-color: #45a049;
+    }
+
+    .top_message{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
