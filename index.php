@@ -1,9 +1,3 @@
-<?php
-//     print_r(pow(3, 5)) ;   
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
